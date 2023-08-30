@@ -1,0 +1,37 @@
+.review__container {
+  display:flex;
+  flex-direction: column;
+  border: 1px dotted;
+  gap: 2px;
+  max-height: 500px;
+  width: 80%;
+  overflow: auto;
+  border-radius: 12px;
+  padding: 4px 16px;
+}
+
+.review__title {
+  text-align: left;
+  margin: 10px 0 10px 0;
+  letter-spacing: 0.2rem;
+}
+
+.review__item {
+  list-style: none;
+  border: 1px solid;
+  min-height: 80px;
+  padding: 20px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.review__content {
+  flex: 1 0 auto;
+  text-align: center;
+}
+
+.hide {
+  display:none;
+}

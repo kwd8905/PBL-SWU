@@ -1,0 +1,25 @@
+.search-form {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search-form input {
+    flex: 1;
+    border: none;
+    padding: 5px;
+}
+
+.search-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search-form button:hover {
+    background-color: #45a049;
+}
